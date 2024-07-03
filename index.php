@@ -65,7 +65,7 @@ $products = [
                         <?php if(method_exists($product, 'getWeight')){
                             echo $product->getWeight();
                         }; ?>
-                        <?php if(method_exists($product, 'getDurabilty')){
+                        <?php if(method_exists($product, 'getDurability')){
                             echo $product->getDurability();
                         }; ?>
                         <?php if(method_exists($product, 'getSize')){
