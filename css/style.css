@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.card{
+    border: 1px solid black;
+    margin-bottom: 2rem;
+}
+
+div.card * {
+    margin-bottom: .5rem;
+}
